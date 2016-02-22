@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61DD398A1C7B57E0004807BD /* iwl3160ac_osx.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 61DD39891C7B57E0004807BD /* iwl3160ac_osx.hpp */; };
+		61DD398C1C7B57E0004807BD /* iwl3160ac_osx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 61DD398B1C7B57E0004807BD /* iwl3160ac_osx.cpp */; };
+		61DD39991C7B58DE004807BD /* iwlwifi-3160-16.ucode in Resources */ = {isa = PBXBuildFile; fileRef = 61DD39961C7B58DE004807BD /* iwlwifi-3160-16.ucode */; };
+		61DD399A1C7B58DE004807BD /* LICENSE.iwlwifi-3160-ucode in Resources */ = {isa = PBXBuildFile; fileRef = 61DD39971C7B58DE004807BD /* LICENSE.iwlwifi-3160-ucode */; };
+		61DD399B1C7B58DE004807BD /* README.iwlwifi-3160-ucode in Resources */ = {isa = PBXBuildFile; fileRef = 61DD39981C7B58DE004807BD /* README.iwlwifi-3160-ucode */; };
+		61DD39AE1C7B593B004807BD /* Info-SimpleUserClient_10.4.plist in Resources */ = {isa = PBXBuildFile; fileRef = 61DD399E1C7B593B004807BD /* Info-SimpleUserClient_10.4.plist */; };
+		61DD39AF1C7B593B004807BD /* Info-SimpleUserClient.plist in Resources */ = {isa = PBXBuildFile; fileRef = 61DD399F1C7B593B004807BD /* Info-SimpleUserClient.plist */; };
+		61DD39C41C7B5961004807BD /* info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 61DD398D1C7B57E0004807BD /* info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		61DD39BE1C7B593B004807BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61DD39A51C7B593B004807BD /* SimpleUserClient.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 32D94FD00562CBF700B6AF17;
+			remoteInfo = SimpleUserClient;
+		};
+		61DD39C01C7B593B004807BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61DD39A51C7B593B004807BD /* SimpleUserClient.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BFA2A8E70E4D018800574406;
+			remoteInfo = SimpleUserClient_10.4;
+		};
+		61DD39C21C7B593B004807BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61DD39A51C7B593B004807BD /* SimpleUserClient.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BF9257E00C039F3300D7A82A;
+			remoteInfo = SimpleUserClientTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		61DD39861C7B57E0004807BD /* iwl3160ac_osx.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iwl3160ac_osx.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		61DD39891C7B57E0004807BD /* iwl3160ac_osx.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = iwl3160ac_osx.hpp; sourceTree = "<group>"; };
+		61DD398B1C7B57E0004807BD /* iwl3160ac_osx.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = iwl3160ac_osx.cpp; sourceTree = "<group>"; };
+		61DD398D1C7B57E0004807BD /* info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = info.plist; sourceTree = "<group>"; };
+		61DD39961C7B58DE004807BD /* iwlwifi-3160-16.ucode */ = {isa = PBXFileReference; lastKnownFileType = file; path = "iwlwifi-3160-16.ucode"; sourceTree = "<group>"; };
+		61DD39971C7B58DE004807BD /* LICENSE.iwlwifi-3160-ucode */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "LICENSE.iwlwifi-3160-ucode"; path = "../LICENSE.iwlwifi-3160-ucode"; sourceTree = "<group>"; };
+		61DD39981C7B58DE004807BD /* README.iwlwifi-3160-ucode */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "README.iwlwifi-3160-ucode"; path = "../README.iwlwifi-3160-ucode"; sourceTree = "<group>"; };
+		61DD399D1C7B593B004807BD /* build */ = {isa = PBXFileReference; lastKnownFileType = folder; path = build; sourceTree = "<group>"; };
+		61DD399E1C7B593B004807BD /* Info-SimpleUserClient_10.4.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-SimpleUserClient_10.4.plist"; sourceTree = "<group>"; };
+		61DD399F1C7B593B004807BD /* Info-SimpleUserClient.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-SimpleUserClient.plist"; sourceTree = "<group>"; };
+		61DD39A01C7B593B004807BD /* Read Me.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Read Me.txt"; sourceTree = "<group>"; };
+		61DD39A11C7B593B004807BD /* SimpleDriver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleDriver.cpp; sourceTree = "<group>"; };
+		61DD39A21C7B593B004807BD /* SimpleDriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleDriver.h; sourceTree = "<group>"; };
+		61DD39A31C7B593B004807BD /* SimpleUserClient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleUserClient.cpp; sourceTree = "<group>"; };
+		61DD39A41C7B593B004807BD /* SimpleUserClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleUserClient.h; sourceTree = "<group>"; };
+		61DD39A51C7B593B004807BD /* SimpleUserClient.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = SimpleUserClient.xcodeproj; sourceTree = "<group>"; };
+		61DD39A81C7B593B004807BD /* SimpleUserClientInterface.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SimpleUserClientInterface.c; sourceTree = "<group>"; };
+		61DD39A91C7B593B004807BD /* SimpleUserClientInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleUserClientInterface.h; sourceTree = "<group>"; };
+		61DD39AA1C7B593B004807BD /* SimpleUserClientTool.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SimpleUserClientTool.c; sourceTree = "<group>"; };
+		61DD39AB1C7B593B004807BD /* User Client Info.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "User Client Info.txt"; sourceTree = "<group>"; };
+		61DD39AC1C7B593B004807BD /* UserKernelShared.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserKernelShared.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61DD39821C7B57E0004807BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61DD397C1C7B57E0004807BD = {
+			isa = PBXGroup;
+			children = (
+				61DD39881C7B57E0004807BD /* iwl3160ac_osx */,
+				61DD39931C7B57FF004807BD /* resources */,
+				61DD39871C7B57E0004807BD /* products */,
+			);
+			sourceTree = "<group>";
+		};
+		61DD39871C7B57E0004807BD /* products */ = {
+			isa = PBXGroup;
+			children = (
+				61DD39861C7B57E0004807BD /* iwl3160ac_osx.kext */,
+			);
+			name = products;
+			sourceTree = "<group>";
+		};
+		61DD39881C7B57E0004807BD /* iwl3160ac_osx */ = {
+			isa = PBXGroup;
+			children = (
+				61DD39891C7B57E0004807BD /* iwl3160ac_osx.hpp */,
+				61DD398B1C7B57E0004807BD /* iwl3160ac_osx.cpp */,
+				61DD398D1C7B57E0004807BD /* info.plist */,
+			);
+			path = iwl3160ac_osx;
+			sourceTree = "<group>";
+		};
+		61DD39931C7B57FF004807BD /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				61DD399C1C7B58EC004807BD /* docs */,
+				61DD39951C7B588E004807BD /* original-project */,
+				61DD39941C7B5875004807BD /* firmware */,
+			);
+			name = resources;
+			path = iwl3160ac_osx;
+			sourceTree = "<group>";
+		};
+		61DD39941C7B5875004807BD /* firmware */ = {
+			isa = PBXGroup;
+			children = (
+				61DD39961C7B58DE004807BD /* iwlwifi-3160-16.ucode */,
+			);
+			name = firmware;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		61DD39951C7B588E004807BD /* original-project */ = {
+			isa = PBXGroup;
+			children = (
+				61DD399D1C7B593B004807BD /* build */,
+				61DD399E1C7B593B004807BD /* Info-SimpleUserClient_10.4.plist */,
+				61DD399F1C7B593B004807BD /* Info-SimpleUserClient.plist */,
+				61DD39A01C7B593B004807BD /* Read Me.txt */,
+				61DD39A11C7B593B004807BD /* SimpleDriver.cpp */,
+				61DD39A21C7B593B004807BD /* SimpleDriver.h */,
+				61DD39A31C7B593B004807BD /* SimpleUserClient.cpp */,
+				61DD39A41C7B593B004807BD /* SimpleUserClient.h */,
+				61DD39A51C7B593B004807BD /* SimpleUserClient.xcodeproj */,
+				61DD39A81C7B593B004807BD /* SimpleUserClientInterface.c */,
+				61DD39A91C7B593B004807BD /* SimpleUserClientInterface.h */,
+				61DD39AA1C7B593B004807BD /* SimpleUserClientTool.c */,
+				61DD39AB1C7B593B004807BD /* User Client Info.txt */,
+				61DD39AC1C7B593B004807BD /* UserKernelShared.h */,
+			);
+			name = "original-project";
+			sourceTree = "<group>";
+		};
+		61DD399C1C7B58EC004807BD /* docs */ = {
+			isa = PBXGroup;
+			children = (
+				61DD39971C7B58DE004807BD /* LICENSE.iwlwifi-3160-ucode */,
+				61DD39981C7B58DE004807BD /* README.iwlwifi-3160-ucode */,
+			);
+			name = docs;
+			sourceTree = "<group>";
+		};
+		61DD39A61C7B593B004807BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61DD39BF1C7B593B004807BD /* SimpleDriver.kext */,
+				61DD39C11C7B593B004807BD /* SimpleDriver_10_4.kext */,
+				61DD39C31C7B593B004807BD /* SimpleUserClientTool */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		61DD39831C7B57E0004807BD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61DD398A1C7B57E0004807BD /* iwl3160ac_osx.hpp in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		61DD39851C7B57E0004807BD /* iwl3160ac_osx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61DD39901C7B57E0004807BD /* Build configuration list for PBXNativeTarget "iwl3160ac_osx" */;
+			buildPhases = (
+				61DD39811C7B57E0004807BD /* Sources */,
+				61DD39821C7B57E0004807BD /* Frameworks */,
+				61DD39831C7B57E0004807BD /* Headers */,
+				61DD39841C7B57E0004807BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iwl3160ac_osx;
+			productName = iwl3160ac_osx;
+			productReference = 61DD39861C7B57E0004807BD /* iwl3160ac_osx.kext */;
+			productType = "com.apple.product-type.kernel-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61DD397D1C7B57E0004807BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = HomeDev;
+				TargetAttributes = {
+					61DD39851C7B57E0004807BD = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 61DD39801C7B57E0004807BD /* Build configuration list for PBXProject "iwl3160ac_osx" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 61DD397C1C7B57E0004807BD;
+			productRefGroup = 61DD39871C7B57E0004807BD /* products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 61DD39A61C7B593B004807BD /* Products */;
+					ProjectRef = 61DD39A51C7B593B004807BD /* SimpleUserClient.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				61DD39851C7B57E0004807BD /* iwl3160ac_osx */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		61DD39BF1C7B593B004807BD /* SimpleDriver.kext */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SimpleDriver.kext;
+			remoteRef = 61DD39BE1C7B593B004807BD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		61DD39C11C7B593B004807BD /* SimpleDriver_10_4.kext */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SimpleDriver_10_4.kext;
+			remoteRef = 61DD39C01C7B593B004807BD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		61DD39C31C7B593B004807BD /* SimpleUserClientTool */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = SimpleUserClientTool;
+			remoteRef = 61DD39C21C7B593B004807BD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61DD39841C7B57E0004807BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61DD39AF1C7B593B004807BD /* Info-SimpleUserClient.plist in Resources */,
+				61DD399A1C7B58DE004807BD /* LICENSE.iwlwifi-3160-ucode in Resources */,
+				61DD39C41C7B5961004807BD /* info.plist in Resources */,
+				61DD399B1C7B58DE004807BD /* README.iwlwifi-3160-ucode in Resources */,
+				61DD39991C7B58DE004807BD /* iwlwifi-3160-16.ucode in Resources */,
+				61DD39AE1C7B593B004807BD /* Info-SimpleUserClient_10.4.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61DD39811C7B57E0004807BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61DD398C1C7B57E0004807BD /* iwl3160ac_osx.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		61DD398E1C7B57E0004807BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		61DD398F1C7B57E0004807BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		61DD39911C7B57E0004807BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				INFOPLIST_FILE = iwl3160ac_osx/info.plist;
+				MODULE_NAME = org.imnx.macosx.iwl3160ac_osx;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.imnx.macosx.iwl3160ac-osx";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Debug;
+		};
+		61DD39921C7B57E0004807BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				INFOPLIST_FILE = iwl3160ac_osx/info.plist;
+				MODULE_NAME = org.imnx.macosx.iwl3160ac_osx;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.imnx.macosx.iwl3160ac-osx";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61DD39801C7B57E0004807BD /* Build configuration list for PBXProject "iwl3160ac_osx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61DD398E1C7B57E0004807BD /* Debug */,
+				61DD398F1C7B57E0004807BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61DD39901C7B57E0004807BD /* Build configuration list for PBXNativeTarget "iwl3160ac_osx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61DD39911C7B57E0004807BD /* Debug */,
+				61DD39921C7B57E0004807BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61DD397D1C7B57E0004807BD /* Project object */;
+}
