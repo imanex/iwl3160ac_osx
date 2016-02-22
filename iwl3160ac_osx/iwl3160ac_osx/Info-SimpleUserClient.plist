@@ -13,7 +13,7 @@
 	<key>CFBundleName</key>
 	<string>SimpleDriver</string>
 	<key>CFBundlePackageType</key>
-	<string>KEXT</string>
+	<string>kext</string>
 	<key>CFBundleShortVersionString</key>
 	<string></string>
 	<key>CFBundleSignature</key>
@@ -28,10 +28,8 @@
 			<string>com.apple.dts.driver.SimpleDriver</string>
 			<key>IOClass</key>
 			<string>com_apple_dts_driver_SimpleDriver</string>
-#if DEBUG
 			<key>IOKitDebug</key>
 			<integer>65535</integer>
-#endif
 			<key>IOMatchCategory</key>
 			<string>com_apple_dts_driver_SimpleDriver</string>
 			<key>IOProbeScore</key>
