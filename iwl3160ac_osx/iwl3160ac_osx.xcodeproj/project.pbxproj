@@ -7,62 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		61DD398A1C7B57E0004807BD /* iwl3160ac_driver.h in Headers */ = {isa = PBXBuildFile; fileRef = 61DD39891C7B57E0004807BD /* iwl3160ac_driver.h */; };
-		61DD398C1C7B57E0004807BD /* iwl3160ac_driver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 61DD398B1C7B57E0004807BD /* iwl3160ac_driver.cpp */; };
+		61DD398A1C7B57E0004807BD /* iwl3160ac_client.h in Headers */ = {isa = PBXBuildFile; fileRef = 61DD39891C7B57E0004807BD /* iwl3160ac_client.h */; };
+		61DD398C1C7B57E0004807BD /* iwl3160ac_client.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 61DD398B1C7B57E0004807BD /* iwl3160ac_client.cpp */; };
 		61DD39991C7B58DE004807BD /* iwlwifi-3160-16.ucode in Resources */ = {isa = PBXBuildFile; fileRef = 61DD39961C7B58DE004807BD /* iwlwifi-3160-16.ucode */; };
 		61DD399A1C7B58DE004807BD /* LICENSE.iwlwifi-3160-ucode in Resources */ = {isa = PBXBuildFile; fileRef = 61DD39971C7B58DE004807BD /* LICENSE.iwlwifi-3160-ucode */; };
 		61DD399B1C7B58DE004807BD /* README.iwlwifi-3160-ucode in Resources */ = {isa = PBXBuildFile; fileRef = 61DD39981C7B58DE004807BD /* README.iwlwifi-3160-ucode */; };
-		61DD39AF1C7B593B004807BD /* Info-SimpleUserClient.plist in Resources */ = {isa = PBXBuildFile; fileRef = 61DD399F1C7B593B004807BD /* Info-SimpleUserClient.plist */; };
+		61DD39AF1C7B593B004807BD /* iwl3160ac-devicedriver.plist in Resources */ = {isa = PBXBuildFile; fileRef = 61DD399F1C7B593B004807BD /* iwl3160ac-devicedriver.plist */; };
 		61DD39C41C7B5961004807BD /* info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 61DD398D1C7B57E0004807BD /* info.plist */; };
+		61DD39C91C7B61E0004807BD /* iwl3160ac.h in Headers */ = {isa = PBXBuildFile; fileRef = 61DD39C81C7B61E0004807BD /* iwl3160ac.h */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		61DD39BE1C7B593B004807BD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 61DD39A51C7B593B004807BD /* SimpleUserClient.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 32D94FD00562CBF700B6AF17;
-			remoteInfo = SimpleUserClient;
-		};
-		61DD39C01C7B593B004807BD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 61DD39A51C7B593B004807BD /* SimpleUserClient.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = BFA2A8E70E4D018800574406;
-			remoteInfo = SimpleUserClient_10.4;
-		};
-		61DD39C21C7B593B004807BD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 61DD39A51C7B593B004807BD /* SimpleUserClient.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = BF9257E00C039F3300D7A82A;
-			remoteInfo = SimpleUserClientTool;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		61DD39861C7B57E0004807BD /* iwl3160ac_osx.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iwl3160ac_osx.kext; sourceTree = BUILT_PRODUCTS_DIR; };
-		61DD39891C7B57E0004807BD /* iwl3160ac_driver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iwl3160ac_driver.h; sourceTree = "<group>"; };
-		61DD398B1C7B57E0004807BD /* iwl3160ac_driver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = iwl3160ac_driver.cpp; sourceTree = "<group>"; };
+		61DD39891C7B57E0004807BD /* iwl3160ac_client.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iwl3160ac_client.h; sourceTree = "<group>"; };
+		61DD398B1C7B57E0004807BD /* iwl3160ac_client.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = iwl3160ac_client.cpp; sourceTree = "<group>"; };
 		61DD398D1C7B57E0004807BD /* info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = info.plist; sourceTree = "<group>"; };
 		61DD39961C7B58DE004807BD /* iwlwifi-3160-16.ucode */ = {isa = PBXFileReference; lastKnownFileType = file; path = "iwlwifi-3160-16.ucode"; sourceTree = "<group>"; };
 		61DD39971C7B58DE004807BD /* LICENSE.iwlwifi-3160-ucode */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "LICENSE.iwlwifi-3160-ucode"; path = "../LICENSE.iwlwifi-3160-ucode"; sourceTree = "<group>"; };
 		61DD39981C7B58DE004807BD /* README.iwlwifi-3160-ucode */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "README.iwlwifi-3160-ucode"; path = "../README.iwlwifi-3160-ucode"; sourceTree = "<group>"; };
-		61DD399D1C7B593B004807BD /* build */ = {isa = PBXFileReference; lastKnownFileType = folder; path = build; sourceTree = "<group>"; };
-		61DD399F1C7B593B004807BD /* Info-SimpleUserClient.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-SimpleUserClient.plist"; sourceTree = "<group>"; };
-		61DD39A01C7B593B004807BD /* Read Me.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Read Me.txt"; sourceTree = "<group>"; };
-		61DD39A11C7B593B004807BD /* SimpleDriver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleDriver.cpp; sourceTree = "<group>"; };
-		61DD39A21C7B593B004807BD /* SimpleDriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleDriver.h; sourceTree = "<group>"; };
-		61DD39A31C7B593B004807BD /* SimpleUserClient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleUserClient.cpp; sourceTree = "<group>"; };
-		61DD39A41C7B593B004807BD /* SimpleUserClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleUserClient.h; sourceTree = "<group>"; };
-		61DD39A51C7B593B004807BD /* SimpleUserClient.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = SimpleUserClient.xcodeproj; sourceTree = "<group>"; };
-		61DD39A81C7B593B004807BD /* SimpleUserClientInterface.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SimpleUserClientInterface.c; sourceTree = "<group>"; };
-		61DD39A91C7B593B004807BD /* SimpleUserClientInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleUserClientInterface.h; sourceTree = "<group>"; };
+		61DD399F1C7B593B004807BD /* iwl3160ac-devicedriver.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iwl3160ac-devicedriver.plist"; sourceTree = "<group>"; };
+		61DD39A11C7B593B004807BD /* iw3160ac.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = iw3160ac.cpp; sourceTree = "<group>"; };
+		61DD39A81C7B593B004807BD /* iwl3160ac_interface.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = iwl3160ac_interface.c; sourceTree = "<group>"; };
+		61DD39A91C7B593B004807BD /* iwl3160ac_interface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iwl3160ac_interface.h; sourceTree = "<group>"; };
 		61DD39AA1C7B593B004807BD /* SimpleUserClientTool.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SimpleUserClientTool.c; sourceTree = "<group>"; };
-		61DD39AB1C7B593B004807BD /* User Client Info.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "User Client Info.txt"; sourceTree = "<group>"; };
-		61DD39AC1C7B593B004807BD /* UserKernelShared.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserKernelShared.h; sourceTree = "<group>"; };
-		61DD39C51C7B5BDA004807BD /* Info-SimpleUserClient-10.4.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-SimpleUserClient-10.4.plist"; sourceTree = "<group>"; };
-		61DD39C61C7B5E37004807BD /* README_AppleDisclaimer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = README_AppleDisclaimer.cpp; sourceTree = "<group>"; };
+		61DD39AB1C7B593B004807BD /* User_Client_Info.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = User_Client_Info.txt; sourceTree = "<group>"; };
+		61DD39AC1C7B593B004807BD /* sharedkernel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sharedkernel.h; sourceTree = "<group>"; };
+		61DD39C61C7B5E37004807BD /* README.Disclaimer.SimpleDriverClient */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.Disclaimer.SimpleDriverClient; sourceTree = "<group>"; };
+		61DD39C81C7B61E0004807BD /* iwl3160ac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iwl3160ac.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,9 +67,16 @@
 		61DD39881C7B57E0004807BD /* iwl3160ac_osx */ = {
 			isa = PBXGroup;
 			children = (
-				61DD39891C7B57E0004807BD /* iwl3160ac_driver.h */,
-				61DD398B1C7B57E0004807BD /* iwl3160ac_driver.cpp */,
+				61DD39A11C7B593B004807BD /* iw3160ac.cpp */,
+				61DD39C81C7B61E0004807BD /* iwl3160ac.h */,
+				61DD399F1C7B593B004807BD /* iwl3160ac-devicedriver.plist */,
+				61DD39891C7B57E0004807BD /* iwl3160ac_client.h */,
+				61DD398B1C7B57E0004807BD /* iwl3160ac_client.cpp */,
+				61DD39A81C7B593B004807BD /* iwl3160ac_interface.c */,
+				61DD39A91C7B593B004807BD /* iwl3160ac_interface.h */,
 				61DD398D1C7B57E0004807BD /* info.plist */,
+				61DD39AC1C7B593B004807BD /* sharedkernel.h */,
+				61DD39AA1C7B593B004807BD /* SimpleUserClientTool.c */,
 			);
 			path = iwl3160ac_osx;
 			sourceTree = "<group>";
@@ -107,7 +85,6 @@
 			isa = PBXGroup;
 			children = (
 				61DD399C1C7B58EC004807BD /* docs */,
-				61DD39951C7B588E004807BD /* original-project */,
 				61DD39941C7B5875004807BD /* firmware */,
 			);
 			name = resources;
@@ -123,45 +100,15 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
-		61DD39951C7B588E004807BD /* original-project */ = {
-			isa = PBXGroup;
-			children = (
-				61DD399D1C7B593B004807BD /* build */,
-				61DD399F1C7B593B004807BD /* Info-SimpleUserClient.plist */,
-				61DD39C51C7B5BDA004807BD /* Info-SimpleUserClient-10.4.plist */,
-				61DD39A01C7B593B004807BD /* Read Me.txt */,
-				61DD39A11C7B593B004807BD /* SimpleDriver.cpp */,
-				61DD39C61C7B5E37004807BD /* README_AppleDisclaimer.cpp */,
-				61DD39A21C7B593B004807BD /* SimpleDriver.h */,
-				61DD39A31C7B593B004807BD /* SimpleUserClient.cpp */,
-				61DD39A41C7B593B004807BD /* SimpleUserClient.h */,
-				61DD39A51C7B593B004807BD /* SimpleUserClient.xcodeproj */,
-				61DD39A81C7B593B004807BD /* SimpleUserClientInterface.c */,
-				61DD39A91C7B593B004807BD /* SimpleUserClientInterface.h */,
-				61DD39AA1C7B593B004807BD /* SimpleUserClientTool.c */,
-				61DD39AB1C7B593B004807BD /* User Client Info.txt */,
-				61DD39AC1C7B593B004807BD /* UserKernelShared.h */,
-			);
-			name = "original-project";
-			sourceTree = "<group>";
-		};
 		61DD399C1C7B58EC004807BD /* docs */ = {
 			isa = PBXGroup;
 			children = (
 				61DD39971C7B58DE004807BD /* LICENSE.iwlwifi-3160-ucode */,
+				61DD39C61C7B5E37004807BD /* README.Disclaimer.SimpleDriverClient */,
 				61DD39981C7B58DE004807BD /* README.iwlwifi-3160-ucode */,
+				61DD39AB1C7B593B004807BD /* User_Client_Info.txt */,
 			);
 			name = docs;
-			sourceTree = "<group>";
-		};
-		61DD39A61C7B593B004807BD /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				61DD39BF1C7B593B004807BD /* SimpleDriver.kext */,
-				61DD39C11C7B593B004807BD /* SimpleDriver_10_4.kext */,
-				61DD39C31C7B593B004807BD /* SimpleUserClientTool */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,7 +118,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61DD398A1C7B57E0004807BD /* iwl3160ac_driver.h in Headers */,
+				61DD398A1C7B57E0004807BD /* iwl3160ac_client.h in Headers */,
+				61DD39C91C7B61E0004807BD /* iwl3160ac.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,12 +168,6 @@
 			mainGroup = 61DD397C1C7B57E0004807BD;
 			productRefGroup = 61DD39871C7B57E0004807BD /* products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 61DD39A61C7B593B004807BD /* Products */;
-					ProjectRef = 61DD39A51C7B593B004807BD /* SimpleUserClient.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				61DD39851C7B57E0004807BD /* iwl3160ac_osx */,
@@ -233,36 +175,12 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		61DD39BF1C7B593B004807BD /* SimpleDriver.kext */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = SimpleDriver.kext;
-			remoteRef = 61DD39BE1C7B593B004807BD /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		61DD39C11C7B593B004807BD /* SimpleDriver_10_4.kext */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = SimpleDriver_10_4.kext;
-			remoteRef = 61DD39C01C7B593B004807BD /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		61DD39C31C7B593B004807BD /* SimpleUserClientTool */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = SimpleUserClientTool;
-			remoteRef = 61DD39C21C7B593B004807BD /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXResourcesBuildPhase section */
 		61DD39841C7B57E0004807BD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61DD39AF1C7B593B004807BD /* Info-SimpleUserClient.plist in Resources */,
+				61DD39AF1C7B593B004807BD /* iwl3160ac-devicedriver.plist in Resources */,
 				61DD399A1C7B58DE004807BD /* LICENSE.iwlwifi-3160-ucode in Resources */,
 				61DD39C41C7B5961004807BD /* info.plist in Resources */,
 				61DD399B1C7B58DE004807BD /* README.iwlwifi-3160-ucode in Resources */,
@@ -277,7 +195,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61DD398C1C7B57E0004807BD /* iwl3160ac_driver.cpp in Sources */,
+				61DD398C1C7B57E0004807BD /* iwl3160ac_client.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +328,7 @@
 				61DD39921C7B57E0004807BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

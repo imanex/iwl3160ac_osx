@@ -14,7 +14,7 @@
 #endif
 
 #include <IOKit/IOService.h>
-#include "UserKernelShared.h"
+#include "sharedkernel.h"
 
 struct MySampleStruct;
 
